@@ -58,7 +58,7 @@ const FindDoctorSearchIC = () => {
             <div className="findiconimg">
               <img
                 className="findIcon"
-                src={process.env.PUBLIC_URL + "/images/search.svg"}
+                src={import.meta.env.PUBLIC_URL + "/images/search.svg"}
                 alt=""
               />
             </div>
@@ -74,7 +74,7 @@ const FindDoctorSearchIC = () => {
                 >
                   <span>
                     <img
-                      src={process.env.PUBLIC_URL + "/images/search.svg"}
+                      src={import.meta.env.PUBLIC_URL + "/images/search.svg"}
                       alt=""
                       style={{ height: "10px", width: "10px" }}
                       width="12"
