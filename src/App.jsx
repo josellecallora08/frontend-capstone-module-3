@@ -5,7 +5,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/instant-consultation" element={<InstantConsultation />} />
+          <Route path="/" element={<InstantConsultation />} />
         </Routes>
       </Router>
     </>
